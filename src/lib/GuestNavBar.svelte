@@ -50,7 +50,7 @@
     <a
       href="/profile"
       class="hover:text-red-700 font-semibold"
-      class:text-red-700={$page.url.pathname == "/profile"}>News</a
+      class:text-red-700={$page.url.pathname == "/profile"}>Profile</a
     >
   </div>
   <div class="flex items-center gap-5 text-sm">
