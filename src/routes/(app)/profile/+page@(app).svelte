@@ -12,7 +12,7 @@
   };
 </script>
 
-<main>
+<main class="max-w-7xl mx-auto">
   <Tab {active} on:change-tab={handleChangeTab}>
     {#if active == 0}
       <Profile />
